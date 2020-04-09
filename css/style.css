@@ -1,0 +1,110 @@
+body{
+    background-color:firebrick;
+    margin: 0px;
+   
+}
+.cardiv{
+    display:flex;
+}
+#container2{
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#container2 h1{
+    margin-bottom:100px;
+    
+}
+.card{
+    height:400px;
+    width:200px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    background-color: chartreuse;
+}
+.card:hover{
+    cursor:pointer;
+}
+#main{
+    display:flex;
+}
+#container{
+    height: 100vh;
+    width: 40vh;
+}
+#img-cont img{
+    height:50%;
+    width:100%;
+    height: 60vh;
+    margin:0px;
+}
+#img-cont{
+    margin:0px;
+    padding:0px;
+    height:50vh;
+}
+
+.sub-cont{
+    margin-top:0px;
+    height: 50vh;
+}
+.btn{
+    height:10vh;
+    width:100%;
+    margin:0px;
+
+}
+
+.sub-cont a{
+    text-decoration: none;
+    
+}
+.sub-cont button{
+    font-weight: 800;
+    font-size: large;
+}
+
+.btn:hover{
+    cursor:pointer;
+}
+
+#heading{  
+    text-align: center;
+    width: 100vw;
+    position:relative;
+    margin-top:10px;
+    margin-bottom:40px;
+}
+#heading img{
+    width: 8vh;
+    height: 40px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    
+}
+#heading h1{
+    
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+
+
+
+/* #school-container h1, #univ-container h1 {
+    text-align: center;
+} */
+#school-img , #univ-img , #work-img{
+    height: 500px;
+    width: 500px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+#school-img img,#univ-img img , #work-img img{
+    width: 100%;
+    height: 100%;
+}
+
